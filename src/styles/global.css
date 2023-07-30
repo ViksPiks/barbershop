@@ -1,0 +1,66 @@
+@import url("fonts.css");
+
+:root {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-primary);
+  background-color: var(--background-color-primary);
+  font-synthesis: none;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+
+  --color-primary: #000;
+  --background-color-primary: #f9f6f3;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1.4rem;
+  max-width: 980px;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+button {
+  border: none;
+}
