@@ -1,0 +1,24 @@
+.hamburger {
+  margin: auto 0;
+  background-color: transparent;
+}
+
+.hamburger__bar {
+  height: 3px;
+  width: 35px;
+  background-color: var(--color-secondary);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.hamburger--open .hamburger__bar--1 {
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.hamburger--open .hamburger__bar--2 {
+  opacity: 0;
+}
+
+.hamburger--open .hamburger__bar--3 {
+  transform: rotate(45deg) translate(-6px, -8px);
+}
