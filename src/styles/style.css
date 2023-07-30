@@ -1,1 +1,36 @@
 @import url("global.css");
+
+.header {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__link {
+  padding: 1.8rem 1.4rem;
+  display: block;
+}
+
+.header__login-btn {
+  background-color: transparent;
+  display: flex;
+  gap: 12px;
+  padding: 1.8rem 1.4rem;
+  align-items: center;
+}
+
+.header__login-btn:hover,
+.header__link:hover {
+  background-color: #242424;
+}

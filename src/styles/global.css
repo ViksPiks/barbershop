@@ -11,6 +11,7 @@
   text-size-adjust: 100%;
 
   --color-primary: #000;
+  --color-secondary: #fff;
   --background-color-primary: #f9f6f3;
 }
 
@@ -63,4 +64,9 @@ video {
 
 button {
   border: none;
+  text-transform: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
 }
