@@ -1,0 +1,12 @@
+.button {
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.button--primary {
+  background-color: var(--color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--color-active);
+}
