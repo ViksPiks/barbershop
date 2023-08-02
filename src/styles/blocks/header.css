@@ -21,6 +21,7 @@
 
 .header__nav.header__nav--open {
   display: block;
+  z-index: 1;
   position: absolute;
   top: 71px;
   left: 0;
