@@ -1,6 +1,7 @@
+const hamburger = document.querySelector(".hamburger");
 const menu = document.querySelector(".header__nav");
 
-function toggleHamburger(hamburger) {
+hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("hamburger--open");
   menu.classList.toggle("header__nav--open");
-}
+});
