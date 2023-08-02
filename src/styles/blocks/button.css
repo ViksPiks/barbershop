@@ -4,6 +4,8 @@
   color: var(--color-secondary);
   text-transform: uppercase;
   display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .button--primary {

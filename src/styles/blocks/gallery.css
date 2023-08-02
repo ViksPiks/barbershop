@@ -1,0 +1,24 @@
+.gallery {
+  margin-left: auto;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+}
+
+.gallery__heading {
+  margin-bottom: 26px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.gallery__photo {
+  margin-bottom: 48px;
+}
+
+.news__buttons-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.news__button {
+  width: 100%;
+}

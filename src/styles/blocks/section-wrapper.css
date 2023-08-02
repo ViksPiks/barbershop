@@ -2,6 +2,18 @@
   background-color: var(--background-color-primary);
   padding: 48px 80px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  grid-template-columns: 1fr min-content 1fr;
+  gap: 40px;
+}
+
+.section-wrapper__devider {
+  width: 2px;
+  height: 278px;
+  align-self: center;
+  background-image: linear-gradient(
+    180deg,
+    rgb(197 194 192 / 0%) 6.25%,
+    #c5c2c0 54.17%,
+    rgb(197 194 192 / 0%) 93.75%
+  );
 }
