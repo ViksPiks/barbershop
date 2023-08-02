@@ -22,3 +22,10 @@
 .news__button {
   width: 100%;
 }
+
+@media (width <= 900px) {
+  .gallery {
+    margin: 0 auto;
+    text-align: center;
+  }
+}

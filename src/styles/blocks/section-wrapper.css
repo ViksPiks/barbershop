@@ -17,3 +17,28 @@
     rgb(197 194 192 / 0%) 93.75%
   );
 }
+
+@media (width <= 900px) {
+  .section-wrapper {
+    grid-template-rows: 1fr min-content 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .section-wrapper__devider {
+    width: 278px;
+    height: 2px;
+    background-image: linear-gradient(
+      90deg,
+      rgb(197 194 192 / 0%) 6.25%,
+      #c5c2c0 54.17%,
+      rgb(197 194 192 / 0%) 93.75%
+    );
+    justify-self: center;
+  }
+}
+
+@media (width <= 500px) {
+  .section-wrapper {
+    padding: 24px;
+  }
+}

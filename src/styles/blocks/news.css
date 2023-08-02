@@ -19,3 +19,10 @@
   line-height: 24px;
   text-transform: uppercase;
 }
+
+@media (width <= 900px) {
+  .news {
+    justify-items: center;
+    text-align: center;
+  }
+}
