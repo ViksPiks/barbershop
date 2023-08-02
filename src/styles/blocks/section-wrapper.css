@@ -1,0 +1,7 @@
+.section-wrapper {
+  background-color: var(--background-color-primary);
+  padding: 48px 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}

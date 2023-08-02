@@ -4,5 +4,7 @@
 @import url("blocks/main.css");
 @import url("blocks/logo.css");
 @import url("blocks/advantages.css");
+@import url("blocks/section-wrapper.css");
+@import url("blocks/news.css");
 @import url("blocks/footer.css");
 @import url("blocks/button.css");

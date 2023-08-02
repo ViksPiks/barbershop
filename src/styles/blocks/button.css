@@ -1,6 +1,9 @@
 .button {
   padding: 10px 30px;
   text-align: center;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  display: inline-block;
 }
 
 .button--primary {
