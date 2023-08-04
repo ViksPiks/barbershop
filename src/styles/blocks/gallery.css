@@ -12,6 +12,7 @@
 
 .gallery__photo {
   margin-bottom: 48px;
+  background-color: #333;
 }
 
 .news__buttons-wrapper {
