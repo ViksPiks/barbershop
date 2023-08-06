@@ -91,101 +91,151 @@
           </ul>
         </section>
 
-        <div class="main__section">
-          <div class="section-wrapper">
-            <section class="news">
-              <h2 class="news__heading">News</h2>
-              <ul class="news__list">
-                <li class="news__article">
-                  <p class="news__text">
-                    We finally got the Jagermeister! Now you can have a drink
-                    while getting a haircut
-                  </p>
-                  <time class="news__time" datetime="2023-01-14 17:00"
-                    >Jan 11</time
-                  >
-                </li>
-                <li class="news__article">
-                  <p class="news__text">
-                    Replenishment in our team: Boris «Razor» Cutterman, sweeper
-                    of many titles and awards added to our slender ranks
-                  </p>
-                  <time class="news__time" datetime="2023-01-14 20:00"
-                    >Jan 18</time
-                  >
-                </li>
-              </ul>
-              <a href="#" class="button button--primary">All news</a>
-            </section>
-
-            <div class="section-wrapper__devider"></div>
-
-            <section class="gallery">
-              <h2 class="gallery__heading">Gallery</h2>
-              <img
-                class="gallery__photo"
-                width="286"
-                height="164"
-                src="images/salon.webp"
-                alt="Salon"
-                loading="lazy"
-              />
-              <div class="news__buttons-wrapper">
-                <button
-                  type="button"
-                  class="button button--primary news__button"
+        <div class="section-wrapper">
+          <section class="news">
+            <h2 class="news__heading">News</h2>
+            <ul class="news__list">
+              <li class="news__article">
+                <p class="news__text">
+                  We finally got the Jagermeister! Now you can have a drink
+                  while getting a haircut
+                </p>
+                <time class="news__time" datetime="2023-01-14 17:00"
+                  >Jan 11</time
                 >
-                  Back
-                </button>
-                <button
-                  type="button"
-                  class="button button--primary news__button"
+              </li>
+              <li class="news__article">
+                <p class="news__text">
+                  Replenishment in our team: Boris «Razor» Cutterman, sweeper of
+                  many titles and awards added to our slender ranks
+                </p>
+                <time class="news__time" datetime="2023-01-14 20:00"
+                  >Jan 18</time
                 >
-                  Next
-                </button>
-              </div>
-            </section>
-          </div>
+              </li>
+            </ul>
+            <a href="#" class="button button--primary">All news</a>
+          </section>
+
+          <div class="section-wrapper__devider"></div>
+
+          <section class="gallery">
+            <h2 class="gallery__heading">Gallery</h2>
+            <img
+              class="gallery__photo"
+              width="286"
+              height="164"
+              src="images/salon.webp"
+              alt="Salon"
+              loading="lazy"
+            />
+            <div class="news__buttons-wrapper">
+              <button type="button" class="button button--primary news__button">
+                Back
+              </button>
+              <button type="button" class="button button--primary news__button">
+                Next
+              </button>
+            </div>
+          </section>
         </div>
 
-        <div class="main__section">
-          <div class="section-wrapper">
-            <section class="contact-information">
-              <h2 class="contact-information__heading">Contact information</h2>
-              <address class="contact-information__address">
-                <p>
-                  Barbershop "Borodinski"<br />
-                  Address: Bolshaya Konyushennaya St, 19/8, Moscow, Russia,
-                  191186<br />
-                  <a href="tel:+9(405)555-0128">Phone: +9 (405) 555-01-28</a>
-                </p>
-              </address>
+        <div class="section-wrapper">
+          <section class="contact-information">
+            <h2 class="contact-information__heading">Contact information</h2>
+            <address class="contact-information__address">
+              <p>
+                Barbershop "Borodinski"<br />
+                Address: Bolshaya Konyushennaya St, 19/8, Moscow, Russia,
+                191186<br />
+                <a href="tel:+9(405)555-0128">Phone: +9 (405) 555-01-28</a>
+              </p>
+            </address>
 
-              <table class="contact-information__table">
-                <caption class="contact-information__table-caption">
-                  Working hours:
-                </caption>
-                <tbody>
-                  <tr>
-                    <th>Mon - Fri</th>
-                    <td>10:00 - 22:00</td>
-                  </tr>
-                  <tr>
-                    <th>Sat - Sun</th>
-                    <td>10:00 - 19:00</td>
-                  </tr>
-                </tbody>
-              </table>
+            <table class="contact-information__table">
+              <caption class="contact-information__table-caption">
+                Working hours:
+              </caption>
+              <tbody>
+                <tr>
+                  <th>Mon - Fri</th>
+                  <td>10:00 - 22:00</td>
+                </tr>
+                <tr>
+                  <th>Sat - Sun</th>
+                  <td>10:00 - 19:00</td>
+                </tr>
+              </tbody>
+            </table>
 
-              <div class="contact-information__buttons-wrapper">
-                <button class="button button--primary">How to find us</button>
-                <button type="button" class="button button--primary">
-                  Leave feedback
-                </button>
+            <div class="contact-information__buttons-wrapper">
+              <button class="button button--primary">How to find us</button>
+              <button type="button" class="button button--primary">
+                Leave feedback
+              </button>
+            </div>
+          </section>
+          <div class="section-wrapper__devider"></div>
+
+          <section class="booking">
+            <h2 class="booking__heading">Book</h2>
+            <p class="booking__text">
+              Choose a desired date and time and we will contact you to confirm
+              your reservation
+            </p>
+            <form action="" method="post" class="booking__form">
+              <div class="booking__form-row">
+                <label for="date">Date</label>
+                <input
+                  class="booking__form-input"
+                  type="date"
+                  id="date"
+                  value="2023-06-01"
+                  min="2023-08-11"
+                  max="2023-12-31"
+                />
               </div>
-            </section>
-            <div class="section-wrapper__devider"></div>
-          </div>
+              <div class="booking__form-row">
+                <label for="time">Time</label>
+                <input
+                  class="booking__form-input"
+                  type="time"
+                  id="time"
+                  value="10:00"
+                  min="2023-08-11"
+                  max="2023-12-31"
+                />
+              </div>
+              <div class="booking__form-row">
+                <label for="name">Name</label>
+                <input
+                  class="booking__form-input"
+                  type="text"
+                  id="name"
+                  minlength="1"
+                  maxlength="20"
+                  placeholder="Beard"
+                />
+              </div>
+              <div class="booking__form-row">
+                <label for="phone">Phone</label>
+                <input
+                  class="booking__form-input"
+                  type="tel"
+                  id="phone"
+                  placeholder="+7 123 456-78-90"
+                  pattern="\d*"
+                  required
+                />
+              </div>
+              <button
+                type="submit"
+                class="button button--primary booking__form-btn"
+              >
+                Send
+              </button>
+            </form>
+          </section>
         </div>
       </div>
     </main>

@@ -6,6 +6,10 @@
   gap: 40px;
 }
 
+.section-wrapper:not(:last-child) {
+  margin-bottom: 36px;
+}
+
 .section-wrapper__devider {
   width: 2px;
   height: 278px;
@@ -20,7 +24,7 @@
 
 @media (width <= 900px) {
   .section-wrapper {
-    grid-template-rows: 1fr min-content 1fr;
+    grid-template-rows: min-content;
     grid-template-columns: 1fr;
   }
 

@@ -4,8 +4,5 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.main__section {
-  margin-bottom: 36px;
+  padding-bottom: 70px;
 }

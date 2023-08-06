@@ -1,0 +1,38 @@
+.booking__heading {
+  margin-bottom: 19px;
+  font-size: 30px;
+}
+
+.booking__text {
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.booking__form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.booking__form-input {
+  border: 2px solid #000101;
+  background-color: var(--background-color-primary);
+  padding: 10px 17px;
+  color: #636466;
+  width: 100%;
+}
+
+.booking__form-row {
+  display: grid;
+  gap: 10px;
+}
+
+.booking__form-btn {
+  grid-column: 1 / -1;
+}
+
+@media (width <= 450px) {
+  .booking__form {
+    grid-template-columns: 1fr;
+  }
+}
