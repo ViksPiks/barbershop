@@ -1,5 +1,4 @@
 .news {
-  font-weight: 700;
   display: grid;
   grid-template-rows: min-content 1fr min-content;
   justify-items: start;
@@ -8,7 +7,6 @@
 .news__heading {
   margin-bottom: 23px;
   font-size: 30px;
-  text-transform: uppercase;
 }
 
 .news__article {
@@ -17,7 +15,10 @@
 
 .news__text {
   line-height: 24px;
-  text-transform: uppercase;
+}
+
+.news__time {
+  text-transform: capitalize;
 }
 
 @media (width <= 900px) {

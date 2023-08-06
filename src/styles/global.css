@@ -2,7 +2,8 @@
 
 :root {
   font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 400;
+  text-transform: uppercase;
+  font-weight: 700;
   font-size: 14px;
   color: var(--color-primary);
   background-color: var(--background-color-primary);
@@ -65,11 +66,18 @@ video {
   max-width: 100%;
 }
 
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+}
+
 button {
   border: none;
   text-transform: inherit;
   color: inherit;
-  font-family: inherit;
   font-weight: inherit;
   font-size: inherit;
 }
@@ -85,4 +93,9 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+th,
+td {
+  padding: 0;
 }

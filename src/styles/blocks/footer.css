@@ -2,8 +2,6 @@
   background-color: #1a1a1a;
   padding: 59px 0 38px;
   color: var(--color-secondary);
-  text-transform: uppercase;
-  font-weight: 700;
 }
 
 .footer__wrapper {
