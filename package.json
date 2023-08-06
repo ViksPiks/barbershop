@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --open",
+    "host": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
     "stylelint:check": "stylelint \"src/**/*.css\"",
