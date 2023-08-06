@@ -1,0 +1,23 @@
+.contact-information {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact-information__heading {
+  font-size: 30px;
+  margin-bottom: 19px;
+}
+
+.contact-information__address {
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.contact-information__hours {
+  margin-bottom: 22px;
+}
+
+.contact-information__buttons-wrapper {
+  display: flex;
+  gap: 20px;
+}
