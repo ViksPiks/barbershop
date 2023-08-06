@@ -53,9 +53,10 @@
 
     <main class="main">
       <div class="container">
-        <h1 class="visually-hidden"></h1>
+        <h1 class="visually-hidden">Barbershop Borodinski</h1>
+
         <div class="logo">
-          <svg width="371" height="155">
+          <svg width="371" height="155" aria-label="Barbershop logo">
             <use href="svg/logo.svg#logo" />
           </svg>
         </div>
@@ -148,27 +149,30 @@
             <section class="contact-information">
               <h2 class="contact-information__heading">Contact information</h2>
               <address class="contact-information__address">
-                <p>Barbershop "Borodinski"</p>
                 <p>
+                  Barbershop "Borodinski"<br />
                   Address: Bolshaya Konyushennaya St, 19/8, Moscow, Russia,
                   191186<br />
                   <a href="tel:+9(405)555-0128">Phone: +9 (405) 555-01-28</a>
                 </p>
               </address>
 
-              <table class="contact-information__hours">
-                <thead>
+              <table class="contact-information__table">
+                <caption class="contact-information__table-caption">
                   Working hours:
-                </thead>
-                <tr>
-                  <th>Mon - Fri</th>
-                  <td>10:00 - 22:00</td>
-                </tr>
-                <tr>
-                  <th>Sat - Sun</th>
-                  <td>10:00 - 19:00</td>
-                </tr>
+                </caption>
+                <tbody>
+                  <tr>
+                    <th>Mon - Fri</th>
+                    <td>10:00 - 22:00</td>
+                  </tr>
+                  <tr>
+                    <th>Sat - Sun</th>
+                    <td>10:00 - 19:00</td>
+                  </tr>
+                </tbody>
               </table>
+
               <div class="contact-information__buttons-wrapper">
                 <button class="button button--primary">How to find us</button>
                 <button type="button" class="button button--primary">
@@ -200,6 +204,7 @@
             <ul class="footer__icons-list">
               <li>
                 <a href="#" class="footer__icon">
+                  <span class="visually-hidden">vkontakte</span>
                   <svg width="27" height="17">
                     <use href="svg/vkontakte.svg#vkontakte" />
                   </svg>
@@ -207,6 +212,7 @@
               </li>
               <li>
                 <a href="#" class="footer__icon">
+                  <span class="visually-hidden">facebook</span>
                   <svg width="20" height="17">
                     <use href="svg/facebook.svg#facebook" />
                   </svg>
@@ -214,6 +220,7 @@
               </li>
               <li>
                 <a href="#" class="footer__icon">
+                  <span class="visually-hidden">instagram</span>
                   <svg width="20" height="20">
                     <use href="svg/instagram.svg#instagram" />
                   </svg>

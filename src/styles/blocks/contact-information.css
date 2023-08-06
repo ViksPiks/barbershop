@@ -13,8 +13,12 @@
   margin-bottom: 24px;
 }
 
-.contact-information__hours {
+.contact-information__table {
   margin-bottom: 22px;
+}
+
+.contact-information__table-caption {
+  text-align: left;
 }
 
 .contact-information__buttons-wrapper {
