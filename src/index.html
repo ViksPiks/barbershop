@@ -317,10 +317,19 @@
         </label>
 
         <div class="modal-login__checkbox-wrapper">
-          <label class="modal-login__checkbox-label">
-            <input type="checkbox" />
-            Remember me
-          </label>
+          <div class="custom-checkbox">
+            <input
+              id="remember-me"
+              type="checkbox"
+              class="visually-hidden custom-checkbox__input"
+            />
+            <label
+              for="remember-me"
+              class="modal-login__checkbox-label custom-checkbox__label"
+            >
+              Remember me
+            </label>
+          </div>
           <a href="#" class="modal-login__forgot-pass-btn">Forgot password?</a>
         </div>
 
