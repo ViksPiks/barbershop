@@ -288,6 +288,46 @@
         </div>
       </div>
     </footer>
+
+    <dialog class="modal-login">
+      <h2 class="modal-login__heading">Log In</h2>
+      <p class="modal-login__text">Enter your login and password</p>
+
+      <form method="post" class="modal-login__form">
+        <label class="modal-login__input-wrapper">
+          <input
+            class="modal-login__input"
+            type="email"
+            placeholder="email@example.com"
+          />
+          <svg class="modal-login__icon" width="13" height="13">
+            <use href="svg/user.svg#user" />
+          </svg>
+        </label>
+
+        <label class="modal-login__input-wrapper">
+          <input
+            class="modal-login__input"
+            type="password"
+            placeholder="••••••••"
+          />
+          <svg class="modal-login__icon" width="13" height="15">
+            <use href="svg/lock.svg#lock" />
+          </svg>
+        </label>
+
+        <div class="modal-login__checkbox-wrapper">
+          <label class="modal-login__checkbox-label">
+            <input type="checkbox" />
+            Remember me
+          </label>
+          <a href="#" class="modal-login__forgot-pass-btn">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="button button--primary">Login</button>
+      </form>
+    </dialog>
+
     <script type="module" src="js/script.js"></script>
   </body>
 </html>

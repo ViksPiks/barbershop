@@ -1,0 +1,54 @@
+.modal-login {
+  padding: 46px 80px 56px;
+  background-color: var(--background-color-primary);
+  display: block;
+}
+
+.modal-login__heading {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.modal-login__text {
+  margin-bottom: 10px;
+}
+
+.modal-login__form {
+  display: grid;
+  grid-template-columns: 300px;
+  gap: 9px;
+}
+
+.modal-login__input-wrapper {
+  position: relative;
+}
+
+.modal-login__icon {
+  position: absolute;
+  top: 14px;
+  right: 15px;
+}
+
+.modal-login__input {
+  border: 2px solid #000;
+  padding: 10px 35px 10px 17px;
+  width: 100%;
+}
+
+.modal-login__checkbox-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.modal-login__checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.modal-login__forgot-pass-btn {
+  text-decoration: underline;
+}
