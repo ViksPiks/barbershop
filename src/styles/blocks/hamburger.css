@@ -4,6 +4,7 @@
 }
 
 .hamburger__bar {
+  display: block;
   height: 3px;
   width: 35px;
   background-color: var(--color-secondary);
