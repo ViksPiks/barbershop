@@ -1,7 +1,12 @@
 .modal-login {
   padding: 46px 80px 56px;
   background-color: var(--background-color-primary);
-  display: block;
+  position: fixed;
+  top: 100px;
+}
+
+.modal-login::backdrop {
+  background-color: rgb(0 0 0 / 70%);
 }
 
 .modal-login__heading {
@@ -51,4 +56,20 @@
 
 .modal-login__forgot-pass-btn {
   text-decoration: underline;
+}
+
+@media (width <= 520px) {
+  .modal-login {
+    padding: 40px;
+  }
+
+  .modal-login__form {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-login__checkbox-wrapper {
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+  }
 }

@@ -29,7 +29,8 @@
   }
 
   .section-wrapper__devider {
-    width: 278px;
+    width: 100%;
+    max-width: 278px;
     height: 2px;
     background-image: linear-gradient(
       90deg,

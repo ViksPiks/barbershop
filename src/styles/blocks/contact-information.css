@@ -20,3 +20,9 @@
   display: flex;
   gap: 20px;
 }
+
+@media (width <= 350px) {
+  .contact-information__buttons-wrapper {
+    flex-direction: column;
+  }
+}

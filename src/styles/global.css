@@ -31,6 +31,11 @@ body {
   grid-template-rows: min-content 1fr min-content;
 }
 
+body.disable-scroll {
+  height: 100dvh;
+  overflow-y: hidden;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -64,6 +69,7 @@ ul {
 img,
 video {
   max-width: 100%;
+  height: auto;
 }
 
 button,
