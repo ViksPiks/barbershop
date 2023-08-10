@@ -10,6 +10,3 @@
 npm install
 npm run dev
 ```
-
-## Links
-- [Deployed Website](https://silly-tartufo-32efec.netlify.app)
