@@ -167,7 +167,9 @@
             </table>
 
             <div class="contact-information__buttons-wrapper">
-              <button class="button button--primary">How to find us</button>
+              <button class="button button--primary" id="find-us">
+                How to find us
+              </button>
               <button type="button" class="button button--primary">
                 Leave feedback
               </button>
@@ -333,6 +335,15 @@
 
         <button type="submit" class="button button--primary">Login</button>
       </form>
+    </dialog>
+
+    <dialog id="modal-map" class="modal-map">
+      <iframe
+        class="modal-map__iframe"
+        frameborder="0"
+        loading="lazy"
+        src="https://www.google.com/maps/embed/v1/place?q=Statue+of+Liberty+National+Monument,+New+York,+NY,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+      ></iframe>
     </dialog>
 
     <script type="module" src="js/script.js"></script>
