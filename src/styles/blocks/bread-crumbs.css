@@ -1,0 +1,28 @@
+.bread-crumbs {
+  margin-bottom: 50px;
+}
+
+.bread-crumbs__list {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.bread-crumbs__element {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.bread-crumbs__element:not(:last-child)::after {
+  content: "";
+  height: 7px;
+  width: 7px;
+  background-color: var(--color-primary);
+  transform: rotate(45deg);
+  display: block;
+}
+
+.bread-crumbs__element--active {
+  color: #aba9a7;
+}

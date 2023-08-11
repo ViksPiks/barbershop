@@ -14,3 +14,6 @@
 @import url("blocks/footer.css");
 @import url("blocks/modal-login.css");
 @import url("blocks/modal-map.css");
+
+/* Catalog */
+@import url("blocks/bread-crumbs.css");
