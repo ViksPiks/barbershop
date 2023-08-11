@@ -1,19 +1,20 @@
 @import url("global.css");
 @import url("blocks/logo.css");
 @import url("blocks/hamburger.css");
+@import url("blocks/bread-crumbs.css");
+@import url("blocks/custom-radio.css");
 @import url("blocks/custom-checkbox.css");
 @import url("blocks/button.css");
 @import url("blocks/header.css");
 @import url("blocks/main.css");
+@import url("blocks/footer.css");
+@import url("blocks/modal-login.css");
+
+/* Home */
 @import url("blocks/advantages.css");
 @import url("blocks/section-wrapper.css");
 @import url("blocks/news.css");
 @import url("blocks/gallery.css");
 @import url("blocks/contact-information.css");
 @import url("blocks/booking.css");
-@import url("blocks/footer.css");
-@import url("blocks/modal-login.css");
 @import url("blocks/modal-map.css");
-
-/* Catalog */
-@import url("blocks/bread-crumbs.css");

@@ -1,0 +1,33 @@
+.custom-radio {
+  position: relative;
+}
+
+.custom-radio__label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.custom-radio__label::before {
+  content: "";
+  border-radius: 50%;
+  border: 2px solid #000;
+  width: 20px;
+  height: 20px;
+}
+
+.custom-radio__label::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  display: none;
+}
+
+.custom-radio__input:checked + .custom-radio__label::after {
+  display: block;
+}
