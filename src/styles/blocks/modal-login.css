@@ -48,12 +48,6 @@
   padding: 5px 0;
 }
 
-.modal-login__checkbox-label {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 .modal-login__forgot-pass-btn {
   text-decoration: underline;
 }
