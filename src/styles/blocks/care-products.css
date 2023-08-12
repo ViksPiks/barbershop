@@ -1,0 +1,13 @@
+.care-products {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 30px;
+  margin-bottom: 45px;
+}
+
+.care-products__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-self: end;
+  gap: 20px;
+}

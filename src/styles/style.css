@@ -21,3 +21,5 @@
 
 /* Catalog */
 @import url("blocks/catalog-filters.css");
+@import url("blocks/care-products.css");
+@import url("blocks/product-card.css");
