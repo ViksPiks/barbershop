@@ -8,6 +8,11 @@
   gap: 10px;
 }
 
+.custom-checkbox__label:hover,
+.custom-checkbox__label:active {
+  color: var(--color-active);
+}
+
 .custom-checkbox__label::before {
   content: "";
   width: 20px;
@@ -27,4 +32,9 @@
 
 .custom-checkbox__input:checked + .custom-checkbox__label::after {
   display: block;
+}
+
+.custom-checkbox__input:disabled + .custom-checkbox__label {
+  color: var(--color-primary);
+  opacity: 0.5;
 }

@@ -8,6 +8,11 @@
   gap: 10px;
 }
 
+.custom-radio__label:hover,
+.custom-radio__label:active {
+  color: var(--color-active);
+}
+
 .custom-radio__label::before {
   content: "";
   border-radius: 50%;
@@ -30,4 +35,9 @@
 
 .custom-radio__input:checked + .custom-radio__label::after {
   display: block;
+}
+
+.custom-radio__input:disabled + .custom-radio__label {
+  color: var(--color-primary);
+  opacity: 0.5;
 }
