@@ -34,9 +34,7 @@
                 <a href="price-list.html" class="header__link">Price list</a>
               </li>
               <li>
-                <a href="catalog.html" class="header__link header__link--active"
-                  >Catalog</a
-                >
+                <a class="header__link header__link--active">Catalog</a>
               </li>
               <li>
                 <a href="#" class="header__link">Contacts</a>
@@ -56,6 +54,7 @@
     <main>
       <div class="container">
         <h1 class="page-heading">Care products</h1>
+
         <section class="bread-crumbs">
           <h2 class="visually-hidden">Bread crumbs</h2>
           <ul class="bread-crumbs__list">
@@ -67,6 +66,118 @@
               <a>Care products</a>
             </li>
           </ul>
+        </section>
+
+        <section class="care-products">
+          <h2 class="visually-hidden">Care products catalog</h2>
+
+          <form class="catalog-filters" method="post">
+            <fieldset class="catalog-filters__fieldset">
+              <legend class="catalog-filters__heading">Brands</legend>
+              <div class="custom-checkbox">
+                <input
+                  id="baxter-of-california"
+                  type="checkbox"
+                  class="visually-hidden custom-checkbox__input"
+                  checked
+                />
+                <label
+                  class="custom-checkbox__label"
+                  for="baxter-of-california"
+                >
+                  Baxter of California
+                </label>
+              </div>
+              <div class="custom-checkbox">
+                <input
+                  id="mr-natty"
+                  type="checkbox"
+                  class="visually-hidden custom-checkbox__input"
+                />
+                <label class="custom-checkbox__label" for="mr-natty">
+                  Mr Natty
+                </label>
+              </div>
+              <div class="custom-checkbox">
+                <input
+                  id="suavecito"
+                  type="checkbox"
+                  class="visually-hidden custom-checkbox__input"
+                  checked
+                />
+                <label class="custom-checkbox__label" for="suavecito">
+                  Suavecito
+                </label>
+              </div>
+              <div class="custom-checkbox">
+                <input
+                  id="malin-goetz"
+                  type="checkbox"
+                  class="visually-hidden custom-checkbox__input"
+                />
+                <label class="custom-checkbox__label" for="malin-goetz">
+                  Malin+Goetz
+                </label>
+              </div>
+              <div class="custom-checkbox">
+                <input
+                  id="murrays"
+                  type="checkbox"
+                  class="visually-hidden custom-checkbox__input"
+                />
+                <label class="custom-checkbox__label" for="murrays">
+                  Murray’s
+                </label>
+              </div>
+              <div class="custom-checkbox">
+                <input
+                  id="american-crew"
+                  type="checkbox"
+                  class="visually-hidden custom-checkbox__input"
+                  checked
+                />
+                <label class="custom-checkbox__label" for="american-crew">
+                  American Crew
+                </label>
+              </div>
+            </fieldset>
+            <fieldset class="catalog-filters__fieldset">
+              <legend class="catalog-filters__heading">Categories</legend>
+              <div class="custom-radio">
+                <input
+                  class="visually-hidden custom-radio__input"
+                  type="radio"
+                  id="razors"
+                  name="category"
+                />
+                <label class="custom-radio__label" for="razors">Razors</label>
+              </div>
+              <div class="custom-radio">
+                <input
+                  class="visually-hidden custom-radio__input"
+                  type="radio"
+                  id="care-products"
+                  name="category"
+                  checked
+                />
+                <label class="custom-radio__label" for="care-products">
+                  Care products
+                </label>
+              </div>
+              <div class="custom-radio">
+                <input
+                  class="visually-hidden custom-radio__input"
+                  type="radio"
+                  id="accessories"
+                  name="category"
+                />
+                <label class="custom-radio__label" for="accessories">
+                  Accessories
+                </label>
+              </div>
+            </fieldset>
+            <button type="submit" class="button button--primary">Show</button>
+          </form>
         </section>
       </div>
     </main>

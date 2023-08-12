@@ -1,0 +1,11 @@
+.catalog-filters__heading {
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+
+.catalog-filters__fieldset {
+  margin-bottom: 50px;
+  display: grid;
+  gap: 17px;
+  border: none;
+}

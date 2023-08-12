@@ -18,3 +18,6 @@
 @import url("blocks/contact-information.css");
 @import url("blocks/booking.css");
 @import url("blocks/modal-map.css");
+
+/* Catalog */
+@import url("blocks/catalog-filters.css");
