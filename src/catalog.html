@@ -71,8 +71,8 @@
         <section class="care-products">
           <h2 class="visually-hidden">Care products catalog</h2>
 
-          <form class="catalog-filters" method="post">
-            <fieldset class="catalog-filters__fieldset">
+          <form class="catalog-filters care-products__filters" method="post">
+            <fieldset class="catalog-filters__fieldset care-products__fieldset">
               <legend class="catalog-filters__heading">Brands</legend>
               <div class="custom-checkbox">
                 <input
@@ -142,7 +142,7 @@
                 </label>
               </div>
             </fieldset>
-            <fieldset class="catalog-filters__fieldset">
+            <fieldset class="catalog-filters__fieldset care-products__fieldset">
               <legend class="catalog-filters__heading">Categories</legend>
               <div class="custom-radio">
                 <input
@@ -178,13 +178,20 @@
                 </label>
               </div>
             </fieldset>
-            <button type="submit" class="button button--primary">Show</button>
+            <button
+              type="submit"
+              class="button button--primary care-products__show-btn"
+            >
+              Show
+            </button>
           </form>
 
           <ul class="care-products__list">
             <li>
-              <div class="product-card">
+              <div class="product-card care-products__product-card">
                 <img
+                  width="220"
+                  height="165"
                   src="images/travel-kit.webp"
                   alt="Travel size bottles and a pouch"
                 />
@@ -205,8 +212,10 @@
               </div>
             </li>
             <li>
-              <div class="product-card">
+              <div class="product-card care-products__product-card">
                 <img
+                  width="220"
+                  height="165"
                   src="images/hair-conditioner.webp"
                   alt="Hair conditioner Baxter of California"
                 />
@@ -227,8 +236,13 @@
               </div>
             </li>
             <li>
-              <div class="product-card">
-                <img src="images/hair-gel.webp" alt="Hair gel Suavecito" />
+              <div class="product-card care-products__product-card">
+                <img
+                  width="220"
+                  height="165"
+                  src="images/hair-gel.webp"
+                  alt="Hair gel Suavecito"
+                />
                 <div class="product-card__info-wrapper">
                   <h3 class="product-card__heading">
                     <a href="#">
@@ -244,8 +258,10 @@
               </div>
             </li>
             <li>
-              <div class="product-card">
+              <div class="product-card care-products__product-card">
                 <img
+                  width="220"
+                  height="165"
                   src="images/hair-clay.webp"
                   alt="Hair clay American crew"
                 />
@@ -264,8 +280,10 @@
               </div>
             </li>
             <li>
-              <div class="product-card">
+              <div class="product-card care-products__product-card">
                 <img
+                  width="220"
+                  height="165"
                   src="images/hair-paste.webp"
                   alt="Hair paste American crew"
                 />
@@ -284,8 +302,10 @@
               </div>
             </li>
             <li>
-              <div class="product-card">
+              <div class="product-card care-products__product-card">
                 <img
+                  width="220"
+                  height="165"
                   src="images/shaving-kit.webp"
                   alt="Shaving kit Baxter of California"
                 />
