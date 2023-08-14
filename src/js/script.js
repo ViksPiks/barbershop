@@ -36,21 +36,23 @@ modalLogin.addEventListener("click", (event) => {
 const findUsBtn = document.getElementById("find-us");
 const modalMap = document.getElementById("modal-map");
 
-findUsBtn.addEventListener("click", () => {
-  modalMap.showModal();
-});
+if (findUsBtn && modalMap) {
+  findUsBtn.addEventListener("click", () => {
+    modalMap.showModal();
+  });
 
-modalMap.addEventListener("click", (event) => {
-  if (event.target !== modalMap) return;
+  modalMap.addEventListener("click", (event) => {
+    if (event.target !== modalMap) return;
 
-  const rect = event.target.getBoundingClientRect();
+    const rect = event.target.getBoundingClientRect();
 
-  if (
-    rect.left > event.clientX ||
-    rect.right < event.clientX ||
-    rect.top > event.clientY ||
-    rect.bottom < event.clientY
-  ) {
-    modalMap.close();
-  }
-});
+    if (
+      rect.left > event.clientX ||
+      rect.right < event.clientX ||
+      rect.top > event.clientY ||
+      rect.bottom < event.clientY
+    ) {
+      modalMap.close();
+    }
+  });
+}
