@@ -11,3 +11,39 @@
 .image-carrusel__item--active {
   grid-column: 1 / -1;
 }
+
+@media (width <= 800px) {
+  .image-carrusel {
+    grid-template-columns: repeat(2, max-content);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0 auto;
+  }
+
+  .image-carrusel__item--active {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+  }
+}
+
+@media (width <= 670px) {
+  .image-carrusel {
+    grid-template-columns: repeat(3, max-content);
+    grid-template-rows: repeat(2, max-content);
+  }
+
+  .image-carrusel__item--active {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+  }
+}
+
+@media (width <= 500px) {
+  .image-carrusel {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .image-carrusel__item:not(.image-carrusel__item--active) {
+    display: none;
+  }
+}

@@ -7,3 +7,9 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 89px;
 }
+
+@media (width <= 800px) {
+  .product-details__wrapper {
+    grid-template-columns: 1fr;
+  }
+}
