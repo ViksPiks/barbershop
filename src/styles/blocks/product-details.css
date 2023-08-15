@@ -1,0 +1,9 @@
+.product-details {
+  margin-bottom: 50px;
+}
+
+.product-details__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 89px;
+}

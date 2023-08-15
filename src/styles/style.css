@@ -24,3 +24,7 @@
 /* Catalog */
 @import url("blocks/catalog-filters.css");
 @import url("blocks/care-products.css");
+
+/* Product page */
+@import url("blocks/product-details.css");
+@import url("blocks/image-carrusel.css");

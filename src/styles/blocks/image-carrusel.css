@@ -1,0 +1,13 @@
+.image-carrusel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.image-carrusel__item {
+  box-shadow: 0 0 15px 0 rgb(0 0 0 / 20%);
+}
+
+.image-carrusel__item--active {
+  grid-column: 1 / -1;
+}
