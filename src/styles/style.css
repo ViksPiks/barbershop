@@ -29,3 +29,6 @@
 @import url("blocks/product-details.css");
 @import url("blocks/image-carrusel.css");
 @import url("blocks/product-description.css");
+
+/* Price list */
+@import url("blocks/price-list-page__slogan.css");
