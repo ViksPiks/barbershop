@@ -1,0 +1,6 @@
+.price-list-page__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: 63px 0 68px;
+}

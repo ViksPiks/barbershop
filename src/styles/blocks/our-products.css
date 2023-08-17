@@ -1,0 +1,25 @@
+.our-products__heading {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 27px;
+}
+
+.our-products__list {
+  display: grid;
+  gap: 13px;
+}
+
+.our-products__item {
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.our-products__item::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background-color: var(--color-primary);
+  transform: rotate(45deg);
+}
