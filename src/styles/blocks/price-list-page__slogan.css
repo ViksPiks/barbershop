@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 28px;
+  white-space: nowrap;
 }
 
 .price-list-page__slogan::before {

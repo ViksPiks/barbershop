@@ -4,3 +4,21 @@
   gap: 30px;
   margin: 63px 0 68px;
 }
+
+@media (width <= 770px) {
+  .price-list-page__slogan::before,
+  .price-list-page__slogan::after {
+    display: none;
+  }
+}
+
+@media (width <= 770px) {
+  .price-list-page__slogan::before,
+  .price-list-page__slogan::after {
+    display: none;
+  }
+
+  .price-list-page__grid {
+    grid-template-columns: 1fr;
+  }
+}
