@@ -1,0 +1,44 @@
+.price-list-page {
+  margin-bottom: 68px;
+}
+
+.price-list-page__slogan {
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  margin-bottom: 63px;
+  text-align: center;
+}
+
+.price-list-page__slogan::before {
+  content: "";
+  flex-grow: 1;
+  height: 2px;
+  background-color: var(--color-primary);
+}
+
+.price-list-page__slogan::after {
+  content: "";
+  flex-grow: 1;
+  height: 2px;
+  background-color: var(--color-primary);
+}
+
+.price-list-page__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 60px;
+}
+
+.price-list-page__about-us {
+  grid-column: 1 / -1;
+}
+
+@media (width <= 770px) {
+  .price-list-page__grid {
+    grid-template-columns: 1fr;
+  }
+}

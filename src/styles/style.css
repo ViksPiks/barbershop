@@ -31,7 +31,7 @@
 @import url("blocks/product-description.css");
 
 /* Price list */
-@import url("blocks/price-list-page__slogan.css");
-@import url("blocks/price-list-page__grid.css");
+@import url("blocks/price-list-page.css");
 @import url("blocks/our-products.css");
 @import url("blocks/prices.css");
+@import url("blocks/about-us.css");
