@@ -9,7 +9,8 @@
 }
 
 .custom-checkbox__label:hover,
-.custom-checkbox__label:active {
+.custom-checkbox__label:active,
+.custom-checkbox__input:focus + .custom-checkbox__label {
   color: var(--color-active);
 }
 
@@ -37,4 +38,9 @@
 .custom-checkbox__input:disabled + .custom-checkbox__label {
   color: var(--color-primary);
   opacity: 0.5;
+}
+
+.custom-checkbox__input:focus + .custom-checkbox__label::before {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
 }
