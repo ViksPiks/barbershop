@@ -11,6 +11,7 @@ export default {
         catalog: resolve(__dirname, "src/catalog.html"),
         "product-page": resolve(__dirname, "src/product-page.html"),
         "price-list": resolve(__dirname, "src/price-list.html"),
+        404: resolve(__dirname, "src/404.html"),
       },
     },
   },

@@ -35,3 +35,6 @@
 @import url("blocks/our-products.css");
 @import url("blocks/prices.css");
 @import url("blocks/about-us.css");
+
+/* 404 */
+@import url("blocks/404.css");
