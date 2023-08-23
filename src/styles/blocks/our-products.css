@@ -4,16 +4,15 @@
   margin-bottom: 27px;
 }
 
-.our-products__list {
-  display: grid;
-  gap: 13px;
-}
-
 .our-products__item {
   line-height: 24px;
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.our-products__item:not(:last-child) {
+  margin-bottom: 13px;
 }
 
 .our-products__item::before {
