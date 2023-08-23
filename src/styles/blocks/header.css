@@ -17,7 +17,7 @@
   display: flex;
 }
 
-.header__nav.header__nav--open {
+.header nav.header__nav.header__nav--open {
   display: block;
   z-index: 1;
   position: absolute;
@@ -30,7 +30,7 @@
 }
 
 .header__link {
-  padding: 1.8rem 1.4rem;
+  padding: 26px 20px;
   display: block;
 }
 
@@ -42,13 +42,22 @@
   background-color: transparent;
   display: flex;
   gap: 0.9rem;
-  padding: 1.8rem 1.4rem;
+  padding: 26px 20px;
   align-items: center;
 }
 
 .header__login-btn:hover,
 .header__link:hover {
   background-color: #242424;
+}
+
+.header__secondary-logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 @media (width <= 650px) {
@@ -61,6 +70,23 @@
   }
 
   .header__list {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+}
+
+/* Secondary header with logo */
+@media (width <= 810px) {
+  .header:has(.header__secondary-logo) .header__hamburger {
+    display: block;
+  }
+
+  .header:has(.header__secondary-logo) .header__nav {
+    display: none;
+  }
+
+  .header:has(.header__secondary-logo) .header__list {
     flex-direction: column;
     align-items: stretch;
     text-align: center;
